@@ -20,9 +20,10 @@ let anim = [
     { t: "DALTON TARDE_", ms: 200 },
     { t: "DALTON TARDE\u00A0", ms: 200 },
     { t: "DALTON TARDE_", ms: 200 },
-    { t: "DALTON TARDE," ms: 200 },
+    { t: "DALTON TARDE", ms: 200 },
     { t: "DALTON TARDE", ms: 200 }
 ];
+
 let stepDenominator = 1;
 if (window.localStorage.stepDenominator)
     stepDenominator = window.localStorage.stepDenominator;
