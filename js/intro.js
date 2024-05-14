@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
         { t: "DALTON TAR_", ms: 100 },
         { t: "DALTON TARD_", ms: 100 },
         { t: "DALTON TARDE_", ms: 100 },
-        { t: "DALTON TARDE\u00A0", ms: 200 },
+        { t: "DALTON TARDE", ms: 200 },
         { t: "DALTON TARDE_", ms: 200 },
-        { t: "DALTON TARDE\u00A0", ms: 200 },
+        { t: "DALTON TARDE", ms: 200 },
         { t: "DALTON TARDE_", ms: 200 },
         { t: "DALTON TARDE", ms: 200 },
         { t: "DALTON TARDE", ms: 200 }
