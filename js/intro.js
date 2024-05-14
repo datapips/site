@@ -17,7 +17,7 @@ let anim = [
     { t: "{DALTON TARD_}", ms: 200 },
     { t: "{DALTON TARDE_}", ms: 200 },
     { t: "{DALTON TARDE }", ms: 200 },
-    { t: "{DALTON TARDE_}}", ms: 200 },
+    { t: "{DALTON TARDE_}", ms: 200 },
     { t: "{DALTON TARD_}", ms: 100 },
     { t: "{DALTON TAR_}", ms: 100 },
     { t: "{DALTON TA_}", ms: 100 },
