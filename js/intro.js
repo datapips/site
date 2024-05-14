@@ -22,8 +22,8 @@ let anim = [
     { t: "{DALTON TAR_}", ms: 100 },
     { t: "{DALTON TA_}", ms: 100 },
     { t: "{DALTON T_}", ms: 100 },
-    { t: "{DALTON _}", ms: 100 }
-    { t: "{DALTON_}", ms: 100 }
+    { t: "{DALTON _}", ms: 100 },
+    { t: "{DALTON_}", ms: 100 },
     { t: "{DALTON}", ms: 100 }
 ];
 let stepDenominator = 1;
