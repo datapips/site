@@ -22,9 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
         { t: "DALTON TAR_", ms: 100 },
         { t: "DALTON TARD_", ms: 100 },
         { t: "DALTON TARDE_", ms: 100 },
-        { t: "DALTON TARDE", ms: 200 },
+        { t: "DALTON TARDE\u00A0", ms: 200 },
         { t: "DALTON TARDE_", ms: 200 },
-        { t: "DALTON TARDE", ms: 200 },
+        { t: "DALTON TARDE\u00A0", ms: 200 },
         { t: "DALTON TARDE_", ms: 200 },
         { t: "DALTON TARDE", ms: 200 },
         { t: "DALTON TARDE", ms: 200 }
@@ -40,6 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     let i = 0;
+    header.style.width = "30vw";
+
     let update = () => {
         if (i < anim.length) {
             let step = anim[i];
@@ -53,11 +55,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (mainElement) {
                     mainElement.style.opacity = 1;
                 }
+                header.style.position = "relative";
+                header.style.width = "100%";
+                
                 if (typeof initGlobe === 'function') {
                     initGlobe();
                 } else {
                     console.error('initGlobe function not defined!');
                 }
+
                 try {
                     window.localStorage.stepDenominator = 2;
                 } catch (e) {
