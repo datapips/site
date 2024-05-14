@@ -4,21 +4,27 @@ let anim = [
     { t: "{_}", ms: 200 },
     { t: "{ }", ms: 200 },
     { t: "{_}", ms: 200 },
-    { t: "{O_}", ms: 100 },
-    { t: "{OT_}", ms: 100 },
-    { t: "{OTT_}", ms: 100 },
-    { t: "{OTTO_}", ms: 100 },
-    { t: "{OTTOM_}", ms: 100 },
-    { t: "{OTTOMA_}", ms: 100 },
-    { t: "{OTTOMAT_}", ms: 100 },
-    { t: "{OTTOMATE_}", ms: 100 },
-    { t: "{OTTOMATED_}", ms: 100 },
-    { t: "{OTTOMATED }", ms: 200 },
-    { t: "{OTTOMATED_}", ms: 200 },
-    { t: "{OTTOMATED }", ms: 200 },
-    { t: "{OTTOMATED_}", ms: 200 },
-    { t: "{OTTOMATED}", ms: 200 },
-    { t: "{OTTOMATED}", ms: 200 }
+    { t: "{D_}", ms: 100 },
+    { t: "{DA_}", ms: 100 },
+    { t: "{DAL_}", ms: 100 },
+    { t: "{DALT_}", ms: 100 },
+    { t: "{DALTO_}", ms: 100 },
+    { t: "{DALTON_}", ms: 100 },
+    { t: "{DALTON _}", ms: 100 },
+    { t: "{DALTON T_}", ms: 100 },
+    { t: "{DALTON TA_}", ms: 100 },
+    { t: "{DALTON TAR_}", ms: 200 },
+    { t: "{DALTON TARD_}", ms: 200 },
+    { t: "{DALTON TARDE_}", ms: 200 },
+    { t: "{DALTON TARDE }", ms: 200 },
+    { t: "{DALTON TARDE_}}", ms: 200 },
+    { t: "{DALTON TARD_}", ms: 100 },
+    { t: "{DALTON TAR_}", ms: 100 },
+    { t: "{DALTON TA_}", ms: 100 },
+    { t: "{DALTON T_}", ms: 100 },
+    { t: "{DALTON _}", ms: 100 }
+    { t: "{DALTON_}", ms: 100 }
+    { t: "{DALTON}", ms: 100 }
 ];
 let stepDenominator = 1;
 if (window.localStorage.stepDenominator)
