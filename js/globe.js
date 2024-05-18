@@ -24,6 +24,7 @@ function animate() {
 let initGlobe = () => {
     globe.init();
     animate();
+    /*
     fetch('https://ip-api.io/json').then(r => r.text()).then(r => {
         let loc = JSON.parse(r);
         globe.addMarker(loc.latitude, loc.longitude, loc.ip);
@@ -32,6 +33,7 @@ let initGlobe = () => {
             globe.addMarker(loc2.latitude, loc2.longitude, loc2.ip, Math.abs(loc.lon - loc2.lon) > 25);
         });
     });
+    */
     var constellation = [];
     var opts = {
         coreColor: "#ff0000",
