@@ -36,7 +36,7 @@ let initGlobe = () => {
     */
     var constellation = [];
     var opts = {
-        coreColor: "#ff0000",
+        coreColor: "#75E6DA",
         numWaves: 8
     };
     var alt = 1;
